@@ -25,6 +25,7 @@
 		1E60AC172B81EAE90055FB87 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E60AC0A2B81EAE90055FB87 /* Roboto-Bold.ttf */; };
 		1E60AC182B81EAE90055FB87 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E60AC0B2B81EAE90055FB87 /* Roboto-Thin.ttf */; };
 		1E60AC192B81EAE90055FB87 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E60AC0C2B81EAE90055FB87 /* Roboto-Black.ttf */; };
+		1E60AC1C2B81ED700055FB87 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60AC1B2B81ED700055FB87 /* UIFont + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		1E60AC0A2B81EAE90055FB87 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		1E60AC0B2B81EAE90055FB87 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		1E60AC0C2B81EAE90055FB87 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		1E60AC1B2B81ED700055FB87 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		1E60ABFD2B81EAA40055FB87 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1E60AC1A2B81ED250055FB87 /* Extensions */,
 				1E60ABFE2B81EACA0055FB87 /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				1E60AC0C2B81EAE90055FB87 /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		1E60AC1A2B81ED250055FB87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E60AC1B2B81ED700055FB87 /* UIFont + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E60AC1C2B81ED700055FB87 /* UIFont + Extension.swift in Sources */,
 				1E60ABEE2B81E0E70055FB87 /* ViewController.swift in Sources */,
 				1E60ABEA2B81E0E70055FB87 /* AppDelegate.swift in Sources */,
 				1E60ABEC2B81E0E70055FB87 /* SceneDelegate.swift in Sources */,
